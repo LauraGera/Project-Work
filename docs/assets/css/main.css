@@ -1,0 +1,278 @@
+
+
+body {
+	padding: 1vw;
+	font-family: 'Palatino','Palatino Linotype','Palatino LT STD','Book Antiqua','Georgia,serif';
+	line-height: 1.25;
+	font-size: 0.95rem;
+    width: 100%;
+    background-color: rgb(255, 253, 251);
+	}
+
+h1, h2, h3, h4, nav, footer {
+    text-align: center;
+}
+
+#sitenav {
+    font-size: 1.2vw;
+}
+
+p {
+    margin: 1px;
+    padding: 0;
+}
+
+hr {
+    margin: 10px;
+}
+
+#about {
+    width: 60%;
+    margin-left: 20%;
+    font-size: 1vw;
+}
+
+.home {
+    width: 60%;
+    margin-left: 20%;
+    font-size: 1.1vw;
+}
+
+.section-about {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.heading-about {
+    text-align: left;
+}
+
+#poster {
+    width: 30%;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    float: right;
+    border-radius: 10px;
+    
+}
+
+#symbols {
+    width: 100%; 
+    border-radius: 10px;
+}
+
+#intro-illustration {
+    float: right; 
+    width: 20%; 
+    margin-left: 20px; 
+    border-radius: 10px;
+}
+
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    width: 315.2px;
+    height: 443.2px;
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin: 0 auto;
+    padding: 20px 10px; 
+  }
+
+  .gallery a {
+    width: 315.2px;
+    height: 443.2px;
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin: 0 auto;
+    
+  }
+  
+  .gallery::after {
+    content: "";
+    width: 350px;
+  }
+  
+
+nav {
+    margin-bottom: 1vw;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 1vw;
+}
+
+table {
+    width: 100%;
+    margin-bottom: 0;
+}
+
+ th, tr, td {
+    max-width: max-content;
+}
+
+.main-column {
+    width: 60%;
+}
+
+.map-column {
+    width: 40%;
+    padding-left: 10px;
+    text-align : center;
+    border: 1px solid black;
+}
+
+.centered-image {
+    text-align: center;
+    border: 1px solid black;
+}
+
+td {
+    padding-top: 0;
+    margin-top: 0;
+}
+
+ul, li {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+#details {
+    padding: 2vw;
+    margin: 1vw;
+    text-align: center;    
+}
+
+#footer {
+    border-top: 1px solid black;
+    margin-bottom: 10px;
+    padding-bottom: 0;
+    background-color: rgb(255, 253, 251);
+    margin-top: 1vw;
+    padding-top: 1vw;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+header {
+    text-align: center;
+}
+
+#cover-decoration {
+    border: 3px black solid;
+    border-radius: 10%;
+    padding: 20px;
+    
+}
+
+.container {
+    max-width: max-content;
+}
+
+
+.col-sm {
+    margin-bottom: 30px;
+}
+
+.image-column {
+    border-top: 1px solid rgb(196, 195, 195);
+    border-right: 1px solid rgb(196, 195, 195);
+}
+
+.transcription {
+    display: block;
+    width: 72%;
+    min-width: fit-content;
+    height: 100%;
+    padding-left: 50px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border-left:  1px solid rgb(196, 195, 195);
+    border-bottom: 1px solid rgb(196, 195, 195);
+    
+}
+
+#metadata {
+    width: 100%;
+    border: 1px solid black;
+    margin-top: 30px;
+}
+
+.bordered {
+    border:1px solid black;
+    border-collapse: collapse;
+  }
+
+  .box-double {
+    border: solid black;
+    border-style: double;
+    padding: 10px;
+  }
+
+  .box-simple {
+    border: 1px solid black;
+    padding: 10px;
+  }
+
+  .centered-cell {
+    text-align: center;
+    border:1px solid black;
+  }
+
+  .padded-cell {
+    border:1px solid black;
+    padding-left: 20px;
+  }
+
+  .centered-text {
+    text-align: center;
+  }
+
+
+.copyright {
+    width: 50%;
+    margin: auto;
+}
+
+.copyright_logos, .copyright_text {
+    display: inline;
+}
+
+.copyright_logo {
+		width: 1vw;
+		margin:.15vw;
+	}
+
+
+
+#collection {
+    display: flex;
+}
+
+.thumbnail {
+    margin: 5px;
+    border: 1px solid black;
+    width: 100px;
+}
+
+.img-full {
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    width: 70%;
+    height: 70%;
+}
