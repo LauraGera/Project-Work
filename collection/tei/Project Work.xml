@@ -63,8 +63,8 @@
                      </pubPlace>
                      <date when="1905" cert="medium">1905</date>
                      <note>No publishing year appears on the brochure, however, it was possible to establish an approximate publishing year
-                        according to the clues available throughout the text (e.g. the La Baule harbor, which, created in 1880, which is said to be 25 years old in the guide (p.13))
-                        I therefore approximated that the text of the brochure was written in 1905.</note>
+                        according to the clues available throughout the text (e.g. the La Baule harbor, which, created in 1880, which is said 
+                        to be 25 years old in the guide (p.13)) I therefore approximated that the text of the brochure was written in 1905.</note>
                      <biblScope unit="page" n="32">32 pages</biblScope>
                   </imprint>
                </monogr>
@@ -90,7 +90,7 @@
                  All hyphens were tagged as <gi>pc</gi> with the appropriate @force.</p>
            </hyphenation>
            <quotation>
-              <p>All quotations have been tagged as <gi>q</gi> with the appropriate @type.</p>
+              <p>All quotations have been tagged as <gi>q</gi> with the appropriate.</p>
            </quotation>
            <segmentation>
               <p>The text was split into main <gi>p</gi> elements. <gi>ab</gi> are also used,
@@ -100,6 +100,14 @@
               <p>No spelling mistakes were found, however some punctuation mark errors exist (such as
                  unclosed brackers) which have not been corrected.</p>
            </correction>
+           <punctuation>
+              <p>All punctuation marks have been retain as in the original, even unclosed brackets.</p>
+           </punctuation>
+           <normalization>
+              <p>The symbols used to represent post offices, train stations and telephones were represented
+              using unicode symbols. As no unicode symbol exists for the telegraph, it is represented
+              by the capital letter T.</p>
+           </normalization>
         </editorialDecl>
      </encodingDesc>
      
