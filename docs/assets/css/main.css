@@ -215,6 +215,7 @@ header {
     border: solid black;
     border-style: double;
     padding: 10px;
+    min-width: fit-content;
   }
 
   .box-simple {
