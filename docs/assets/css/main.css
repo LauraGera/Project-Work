@@ -4,7 +4,7 @@ body {
     font-size: 1rem;
 	line-height: 1.25;
     width: 100%;
-    background-color: rgb(252, 254, 250);
+    background-color: rgb(246, 242, 242);
 	}
 
 h1, h2, h3, h4, nav, footer {
@@ -154,7 +154,6 @@ ul, li {
     border-top: 1px solid black;
     margin-bottom: 10px;
     padding-bottom: 0;
-    background-color: rgb(252, 254, 250);
     margin-top: 1vw;
     padding-top: 1vw;
     left: 0;
