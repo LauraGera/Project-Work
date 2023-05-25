@@ -206,6 +206,12 @@ header {
     margin-top: 30px;
 }
 
+#contents {
+    margin: auto;
+    width: 40%;
+    font-size: 1.2rem;
+}
+
 .bordered {
     border:1px solid black;
     border-collapse: collapse;
