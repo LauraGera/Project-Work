@@ -183,8 +183,9 @@ header {
 
 .image-column {
     border-top: 1px solid rgb(196, 195, 195);
-    border-right: 1px solid rgb(196, 195, 195);
+    border-right: 1px solid rgb(196, 195, 195); 
 }
+
 
 .transcription {
     display: block;
